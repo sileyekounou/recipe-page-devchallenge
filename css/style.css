@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    animation: apparition 1.2s 0.4s ease-out forwards;
+}
+
+.banner {
+    opacity: 0;
+    animation: apparition 0.9s 1.2s ease-out forwards;
+}
+
+.sous-title {
+    opacity: 0;
+    animation: apparition 0.9s 1.2s ease-out forwards;
+}
+
+.aside-left {
+    opacity: 0;
+    animation: apparition 0.9s 1.2s ease-out forwards;
+}
+
+.aside-r {
+    opacity: 0;
+    animation: apparition 0.9s 1.2s ease-out forwards;
+}
+
+
+@keyframes apparition {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
